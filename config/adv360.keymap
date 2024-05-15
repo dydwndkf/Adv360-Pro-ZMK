@@ -60,11 +60,11 @@
 
         layer_fn___ {
             bindings = <
- &kp ESC            &trans          &trans  &mt LG(LS(N3)) N3  &mt LG(LS(N4)) N4     &trans              &trans                                                               &trans     &trans            &trans     &trans  &kp LA(SPACE)          &kp LA(S)  &kp LG(BACKSPACE)
-  &trans         &kp LG(Q)       &kp LG(W)          &kp LG(E)          &kp LG(R)  &kp LG(T)            &kp HOME                                                         &kp C_VOL_UP  &kp LG(Y)         &kp LG(U)  &kp LG(I)      &kp LG(O)     &mt LG(P) LBKT           &kp RBKT
-  &trans         &kp LG(A)       &kp LG(S)          &kp LG(D)          &kp LG(F)  &kp LG(G)             &kp END  &trans  &trans                  &trans  &trans  &mt C_MUTE C_VOL_DN  &kp LG(H)         &kp LG(J)  &kp LG(K)   &mt LG(L) UP           &kp LPAR           &kp RPAR
-  &trans         &kp LG(Z)       &kp LG(X)          &kp LG(C)          &kp LG(V)  &kp LG(B)                              &trans                  &trans                               &kp LG(N)         &kp LG(M)   &kp LEFT       &kp DOWN          &kp RIGHT             &trans
-  &trans  &kp LG(LS(LEFT))  &kp LG(LS(UP))   &kp LG(LS(DOWN))  &kp LG(LS(RIGHT))                         &trans  &trans  &trans                  &trans  &trans               &trans             &kp LC(LA(LEFT))     &trans         &trans  &kp LC(LA(RIGHT))             &trans
+ &kp ESC        &trans      &trans  &mt LG(LS(N3)) N3  &mt LG(LS(N4)) N4     &trans              &trans                                                               &trans     &trans            &trans     &trans  &kp LA(SPACE)          &kp LA(S)  &kp LG(BACKSPACE)
+  &trans     &kp LG(Q)   &kp LG(W)          &kp LG(E)          &kp LG(R)  &kp LG(T)            &kp HOME                                                         &kp C_VOL_UP  &kp LG(Y)         &kp LG(U)  &kp LG(I)      &kp LG(O)     &mt LG(P) LBKT           &kp RBKT
+  &trans     &kp LG(A)   &kp LG(S)          &kp LG(D)          &kp LG(F)  &kp LG(G)             &kp END  &trans  &trans                  &trans  &trans  &mt C_MUTE C_VOL_DN  &kp LG(H)         &kp LG(J)  &kp LG(K)   &mt LG(L) UP           &kp LPAR           &kp RPAR
+  &trans     &kp LG(Z)   &kp LG(X)          &kp LG(C)          &kp LG(V)  &kp LG(B)                              &trans                  &trans                               &kp LG(N)         &kp LG(M)   &kp LEFT       &kp DOWN          &kp RIGHT             &trans
+  &trans  &kp LG(LEFT)  &kp LG(UP)       &kp LG(DOWN)      &kp LG(RIGHT)                         &trans  &trans  &trans                  &trans  &trans               &trans             &kp LC(LA(LEFT))     &trans         &trans  &kp LC(LA(RIGHT))             &trans
             >;
         };
 
