@@ -40,7 +40,7 @@
 
         default_layer {
             bindings = <
- &kp GRAVE          &kp N1  &kp N2         &kp N3   &mt DOLLAR N4  &kp N5                &mo 3                                                                                              &kp N6  &kp N7    &kp N8     &kp N9   &kp N0  &kp MINUS  &kp EQUAL
+ &kp GRAVE          &kp N1  &kp N2         &kp N3          &kp N4  &kp N5                &mo 3                                                                                              &kp N6  &kp N7    &kp N8     &kp N9   &kp N0  &kp MINUS  &kp EQUAL
    &kp TAB           &kp Q   &kp W          &kp E           &kp R   &kp T                &kp Y                                                                                               &none   &kp Y     &kp U      &kp I    &kp O      &kp P   &kp BSLH
    &kp ESC           &kp A   &kp S          &kp D           &kp F   &kp G                &kp H       &kp LGUI              &kp LALT                             &kp LALT       &kp LGUI     &trans   &kp H     &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
  &kp LSHFT           &kp Z   &kp X          &kp C           &kp V   &kp B                                      &mt LEFT_SHIFT LG(V)                      &mt LSHFT LG(Z)                             &kp B     &kp N      &kp M   &trans   &kp FSLH  &kp RSHFT
