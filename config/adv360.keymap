@@ -38,6 +38,7 @@
         semi {
             bindings = <&kp SEMI>;
             key-positions = <56 57>;
+            timeout-ms = <70>;
         };
     };
 
