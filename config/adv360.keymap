@@ -13,6 +13,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -69,7 +70,7 @@
 &kp LC(TAB)    &kp LC(Q)          &kp LC(W)          &kp LC(E)       &kp LC(R)           &kp LC(T)       &trans                                                                                                                                   &kp C_VOL_UP         &kp LC(Y)          &kp LC(U)          &kp LC(I)          &kp UP          &mt LC(P) LBKT  &kp RBKT
 &trans         &kp LC(A)          &kp LC(S)          &kp LC(D)       &kp LC(F)           &kp LC(G)       &trans         &mt LC(LS(LEFT)) LC(LA(LEFT))  &mt LC(LS(RIGHT)) LC(LA(RIGHT))      &mt LG(LBKT) LG(LS(LBKT))  &mt LG(RBKT) LG(LS(RBKT))  &mt C_MUTE C_VOL_DN  &kp LC(H)          &kp LC(J)          &mt LC(K) LEFT     &mt LC(L) DOWN  &kp RIGHT       &trans
 &trans         &kp LC(Z)          &kp LC(X)          &kp LC(C)       &kp LC(V)           &kp LC(B)                                                     &mt LC(LA(LS(UP))) LC(LA(UP))        &kp LG(LS(A))                                                              &kp LC(N)          &kp LC(M)          &trans             &trans          &trans          &trans
-&trans         &trans             &trans             &trans          &trans                              &trans         &trans                         &kp LC(LA(DOWN))                     &trans                     &trans                     &trans                                  &trans             &trans             &trans          &trans          &trans
+&trans         &trans             &trans             &trans          &trans                              &trans         &trans                         &kp LC(LA(DOWN))                     &trans                     &mkp MB1                   &mkp MB2                                &trans             &trans             &trans          &trans          &trans
             >;
         };
 
