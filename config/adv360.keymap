@@ -35,10 +35,15 @@
     combos {
         compatible = "zmk,combos";
 
-        semi {
-            bindings = <&kp SEMI>;
-            key-positions = <56 57>;
+        prefix {
+            bindings = <&kp LC(X)>;
+            key-positions = <47 48>;
             timeout-ms = <70>;
+        };
+
+        lang {
+            bindings = <&kp RCMD>;
+            key-positions = <40 41>;
         };
     };
 
