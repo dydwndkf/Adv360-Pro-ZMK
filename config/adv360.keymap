@@ -61,8 +61,8 @@
             timeout-ms = <80>;
         };
 
-        paste_shift {
-            bindings = <&kp LG(LS(V))>;
+        line_select {
+            bindings = <&kp LS(V)>;
             key-positions = <50 48>;
             timeout-ms = <80>;
         };
