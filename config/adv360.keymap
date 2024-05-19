@@ -87,7 +87,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <54 55>;
+            key-positions = <71 72>;
             timeout-ms = <80>;
         };
 
@@ -100,6 +100,18 @@
         equal {
             bindings = <&kp EQUAL>;
             key-positions = <58 56>;
+            timeout-ms = <75>;
+        };
+
+        bsp_cmd {
+            bindings = <&kp LG(BACKSPACE)>;
+            key-positions = <40 41>;
+            timeout-ms = <75>;
+        };
+
+        bsp_opt {
+            bindings = <&kp LG(BACKSPACE)>;
+            key-positions = <54 55>;
             timeout-ms = <75>;
         };
     };
