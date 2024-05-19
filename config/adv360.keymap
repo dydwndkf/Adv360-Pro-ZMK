@@ -88,6 +88,19 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
+            timeout-ms = <75>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <55 57>;
+            timeout-ms = <75>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <58 56>;
+            timeout-ms = <75>;
         };
     };
 
