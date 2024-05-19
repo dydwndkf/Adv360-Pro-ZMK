@@ -57,13 +57,13 @@
 
         paste {
             bindings = <&kp LG(V)>;
-            key-positions = <47 49>;
+            key-positions = <50 49>;
             timeout-ms = <80>;
         };
 
         paste_shift {
             bindings = <&kp LG(LS(V))>;
-            key-positions = <50 49>;
+            key-positions = <50 48>;
             timeout-ms = <80>;
         };
 
