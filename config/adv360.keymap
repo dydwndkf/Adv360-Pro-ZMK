@@ -105,7 +105,7 @@
         bsp_lalt {
             bindings = <&kp LA(BACKSPACE)>;
             key-positions = <40 41>;
-            timeout-ms = <80>;
+            timeout-ms = <90>;
         };
 
         b {
