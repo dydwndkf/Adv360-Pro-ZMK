@@ -87,7 +87,7 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <0 1>;
+            key-positions = <15 16>;
             timeout-ms = <75>;
         };
 
