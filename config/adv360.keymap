@@ -140,11 +140,11 @@
 
         layer_fn___ {
             bindings = <
-&trans  &kp LC(LA(LG(S)))  &kp LC(LA(LG(W)))  &mt LS(LG(N4)) LG(LS(LC(N4)))  &kp LA(LC(LG(C)))  &kp LG(LA(LC(N5)))  &trans                                                   &trans  &trans  &trans          &trans    &trans     &trans  &trans
-&trans  &trans             &trans             &trans                         &trans             &trans              &kp C_VOL_UP                                             &trans  &trans  &trans          &trans    &trans     &trans  &trans
-&trans  &trans             &trans             &trans                         &trans             &trans              &mt C_MUTE C_VOL_DN  &trans  &trans      &trans  &trans  &trans  &trans  &trans          &kp UP    &trans     &trans  &trans
-&trans  &trans             &trans             &trans                         &trans             &trans                                           &trans      &trans                  &trans  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans             &trans             &trans                         &trans                                 &trans               &trans  &trans      &trans  &trans  &trans          &trans          &trans    &trans     &trans  &trans
+&trans  &kp LC(LA(LG(S)))  &kp LC(LA(LG(W)))  &mt LS(LG(N4)) LG(LS(LC(N4)))  &kp LA(LC(LG(C)))  &kp LG(LA(LC(N5)))  &trans                                      &trans  &trans  &trans          &trans    &trans     &trans  &trans
+&trans  &trans             &trans             &trans                         &trans             &trans              &trans                                      &trans  &trans  &trans          &trans    &trans     &trans  &trans
+&trans  &trans             &trans             &trans                         &trans             &trans              &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans          &kp UP    &trans     &trans  &trans
+&trans  &trans             &trans             &trans                         &trans             &trans                              &trans      &trans                  &trans  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans             &trans             &trans                         &trans                                 &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans    &trans     &trans  &trans
             >;
         };
 
