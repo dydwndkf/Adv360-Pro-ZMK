@@ -130,11 +130,11 @@
 
         layer_pad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &trans                       &trans                                                   &trans               &trans             &trans                         &trans                         &trans                           &trans         &trans
-&trans  &trans  &trans  &trans  &trans                     &trans                       &none                                                    &kp C_VOL_UP         &trans             &kp LG(LBKT)                   &trans                         &kp LG(RBKT)                     &trans         &trans
-&trans  &trans  &trans  &trans  &mt LG(LS(LEFT)) LG(LEFT)  &mt LS(LG(RIGHT)) LG(RIGHT)  &trans  &sk LS(LCMD)  &trans      &trans  &kp LA(SPACE)  &mt C_MUTE C_VOL_UP  &mt HOME PAGE_UP   &mt LG(LBKT) LG(LS(LBKT))      &mt LC(LA(LS(UP))) LC(LA(UP))  &mt LG(RBKT) LG(LS(RBKT))        &trans         &trans
-&trans  &trans  &trans  &trans  &mt LA(LS(LEFT)) LA(LEFT)  &mt LS(LA(RIGHT)) LA(RIGHT)                        &trans      &trans                                      &mt END PAGE_DOWN  &mt LC(LS(LEFT)) LA(LC(LEFT))  &mt LG(M) LC(LA(DOWN))         &mt LC(LS(RIGHT)) LC(LA(RIGHT))  &trans         &trans
-&trans  &trans  &trans  &trans  &trans                                                  &trans  &trans        &trans      &trans  &kp LA(S)      &kp LS(ENTER)                           &kp LG(BACKSPACE)              &kp LA(BACKSPACE)              &trans                           &kp LG(GRAVE)  &mo 2
+&trans  &trans  &trans  &trans  &trans                     &trans                       &trans                                                   &trans               &trans             &trans                         &trans                         &trans                           &trans          &trans
+&trans  &trans  &trans  &trans  &trans                     &trans                       &none                                                    &kp C_VOL_UP         &trans             &kp LG(LBKT)                   &trans                         &kp LG(RBKT)                     &trans          &trans
+&trans  &trans  &trans  &trans  &mt LG(LS(LEFT)) LG(LEFT)  &mt LS(LG(RIGHT)) LG(RIGHT)  &trans  &sk LS(LCMD)  &trans      &trans  &kp LA(SPACE)  &mt C_MUTE C_VOL_UP  &mt HOME PAGE_UP   &mt LG(LBKT) LG(LS(LBKT))      &mt LC(LA(LS(UP))) LC(LA(UP))  &mt LG(RBKT) LG(LS(RBKT))        &kp LEFT_SHIFT  &trans
+&trans  &trans  &trans  &trans  &mt LA(LS(LEFT)) LA(LEFT)  &mt LS(LA(RIGHT)) LA(RIGHT)                        &trans      &trans                                      &mt END PAGE_DOWN  &mt LC(LS(LEFT)) LA(LC(LEFT))  &mt LG(M) LC(LA(DOWN))         &mt LC(LS(RIGHT)) LC(LA(RIGHT))  &trans          &trans
+&trans  &trans  &trans  &trans  &trans                                                  &trans  &trans        &trans      &trans  &kp LA(S)      &kp LS(ENTER)                           &kp LG(BACKSPACE)              &kp LA(BACKSPACE)              &trans                           &kp LG(GRAVE)   &mo 2
             >;
         };
 
