@@ -38,7 +38,7 @@
         prefix {
             bindings = <&kp LC(X)>;
             key-positions = <47 48>;
-            timeout-ms = <75>;
+            timeout-ms = <85>;
         };
 
         lang {
