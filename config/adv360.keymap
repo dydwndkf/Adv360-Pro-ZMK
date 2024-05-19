@@ -119,11 +119,11 @@
 
         layer_pad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3                     &kp N4                       &kp N5                       &trans                                                   &trans     &kp N6  &kp KP_NUM                     &kp KP_EQUAL                   &kp KP_DIVIDE                    &kp KP_MULTIPLY     &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E                      &kp R                        &kp T                        &none                                                    &none      &trans  &trans                         &mkp MB1                       &trans                           &trans              &trans
-&kp ESC    &kp A      &kp S     &mt LG(LEFT) LG(LS(LEFT))  &mt LG(RIGHT) LG(LS(RIGHT))  &mt LG(RIGHT) LG(LS(RIGHT))  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &trans  &mt LG(LBKT) LG(LS(LBKT))      &mt LC(LA(LS(UP))) LC(LA(UP))  &mt LG(RBKT) LG(LS(RBKT))        &mt HOME PAGE_DOWN  &trans
-&kp LSHFT  &kp Z      &kp X     &mt LA(LEFT) LA(LS(LEFT))  &mt LA(RIGHT) LA(LS(RIGHT))  &mt LC(V) LS(V)                                   &kp HOME      &kp PG_UP                        &trans  &mt LC(LS(LEFT)) LA(LC(LEFT))  &mt LG(M) LC(LA(DOWN))         &mt LC(LS(RIGHT)) LC(LA(RIGHT))  &mt END PAGE_DOWN   &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT                   &kp RIGHT                                                 &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &trans                         &trans                         &trans                           &trans              &mo 2
+&kp EQUAL  &kp N1  &kp N2  &kp N3                     &kp N4                       &kp N5                       &trans                                                   &trans     &kp N6  &kp KP_NUM                     &kp KP_EQUAL                   &kp KP_DIVIDE                    &kp KP_MULTIPLY     &kp MINUS
+&kp TAB    &kp Q   &kp W   &kp E                      &kp R                        &kp T                        &none                                                    &none      &trans  &trans                         &mkp MB1                       &trans                           &trans              &trans
+&kp ESC    &kp A   &kp S   &mt LG(LEFT) LG(LS(LEFT))  &mt LG(RIGHT) LG(LS(RIGHT))  &mt LG(RIGHT) LG(LS(RIGHT))  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &trans  &mt LG(LBKT) LG(LS(LBKT))      &mt LC(LA(LS(UP))) LC(LA(UP))  &mt LG(RBKT) LG(LS(RBKT))        &mt HOME PAGE_DOWN  &trans
+&kp LSHFT  &kp Z   &kp X   &mt LA(LEFT) LA(LS(LEFT))  &mt LA(RIGHT) LA(LS(RIGHT))  &mt LC(V) LS(V)                                   &kp HOME      &kp PG_UP                        &trans  &mt LC(LS(LEFT)) LA(LC(LEFT))  &mt LG(M) LC(LA(DOWN))         &mt LC(LS(RIGHT)) LC(LA(RIGHT))  &mt END PAGE_DOWN   &kp RSHFT
+&mo 2      &trans  &trans  &trans                     &trans                                                    &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &trans                         &trans                         &trans                           &trans              &mo 2
             >;
         };
 
