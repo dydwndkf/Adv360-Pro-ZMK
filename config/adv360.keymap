@@ -141,11 +141,11 @@
 
         layer_fn___ {
             bindings = <
-&trans  &kp LC(LA(LG(S)))  &kp LC(LA(LG(W)))  &mt LS(LG(N4)) LG(LS(LC(N4)))  &kp LS(N4)  &kp LG(LS(N5))  &kp LS(N6)                                        &kp LC(LA(LG(C)))    &kp LC(LA(LG(E)))  &kp LC(LA(LG(I)))  &kp LC(LA(LG(P)))   &kp LG(LS(A))  &kp LA(SPACE)   &kp LA(S)
-&trans  &trans             &trans             &trans                         &trans      &trans          &trans                                            &kp C_VOL_UP         &trans             &trans             &trans              &trans         &mt LC(P) LBKT  &kp RBKT
-&trans  &kp LC(A)          &kp LC(S)          &kp LC(D)                      &kp LC(F)   &kp LC(G)       &trans      &trans  &trans      &trans  &trans    &mt C_MUTE C_VOL_DN  &kp LC(H)          &trans             &mt LC(K) UP_ARROW  &kp LC(L)      &kp LC(K)       &kp LC(L)
-&trans  &kp LC(Z)          &kp LC(X)          &kp LC(C)                      &kp LC(V)   &kp LC(B)                           &trans      &trans                                 &kp LC(N)          &kp LEFT_ARROW     &kp DOWN            &kp RIGHT      &trans          &trans
-&trans  &trans             &trans             &trans                         &trans                      &trans      &trans  &trans      &trans  &mkp MB1  &mkp MB2                                &trans             &trans              &trans         &kp LG(GRAVE)   &trans
+&trans  &kp LC(LA(LG(S)))  &kp LC(LA(LG(W)))  &mt LS(LG(N4)) LG(LS(LC(N4)))  &kp LA(LC(LG(C)))  &kp LG(LA(LC(N5)))  &trans                                                     &trans    &trans  &kp LC(LA(LG(I)))  &kp LC(LA(LG(P)))  &kp LG(LS(A))  &trans  &trans
+&trans  &trans             &trans             &trans                         &trans             &trans              &kp C_VOL_UP                                               &trans    &trans  &trans             &trans             &trans         &trans  &trans
+&trans  &trans             &trans             &trans                         &trans             &trans              &mt C_MUTE C_VOL_DN  &trans  &trans      &trans  &trans    &trans    &trans  &trans             &kp UP             &trans         &trans  &trans
+&trans  &trans             &trans             &trans                         &trans             &trans                                           &trans      &trans                      &trans  &kp LEFT_ARROW     &kp DOWN           &kp RIGHT      &trans  &trans
+&trans  &trans             &trans             &trans                         &trans                                 &trans               &trans  &trans      &trans  &mkp MB1  &mkp MB2          &trans             &trans             &trans         &trans  &trans
             >;
         };
 
