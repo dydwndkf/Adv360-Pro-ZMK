@@ -70,12 +70,6 @@
             key-positions = <44 45>;
             timeout-ms = <70>;
         };
-
-        delete {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <12 13>;
-            timeout-ms = <60>;
-        };
     };
 
     keymap {
