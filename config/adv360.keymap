@@ -43,7 +43,7 @@
 
         lang {
             bindings = <&kp RCMD>;
-            key-positions = <40 41>;
+            key-positions = <41 42>;
         };
 
         copy {
