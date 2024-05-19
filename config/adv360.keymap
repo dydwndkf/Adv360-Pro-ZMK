@@ -45,6 +45,26 @@
             bindings = <&kp RCMD>;
             key-positions = <40 41>;
         };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <48 49>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <49 50>;
+        };
+
+        paste_shift {
+            bindings = <&kp LG(LS(V))>;
+            key-positions = <48 50>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <44 45>;
+        };
     };
 
     keymap {
