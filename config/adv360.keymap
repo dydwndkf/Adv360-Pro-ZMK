@@ -108,8 +108,8 @@
             timeout-ms = <80>;
         };
 
-        bsp_lg {
-            bindings = <&kp LG(BACKSPACE)>;
+        b {
+            bindings = <&kp B>;
             key-positions = <54 55>;
             timeout-ms = <80>;
         };
