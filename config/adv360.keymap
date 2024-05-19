@@ -119,10 +119,10 @@
 
         layer_pad {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3                     &kp N4                       &kp N5           &trans                                      &trans  &kp N6  &kp KP_NUM                     &kp KP_EQUAL                   &kp KP_DIVIDE                    &kp KP_MULTIPLY    &trans
-&trans  &kp Q   &kp W   &kp E                      &kp R                        &kp T            &none                                       &none   &trans  &trans                         &mkp MB1                       &trans                           &trans             &trans
-&trans  &kp A   &kp S   &mt LG(LS(LEFT)) LG(LEFT)  &mt LG(LS(RIGHT)) LG(RIGHT)  &trans           &none   &trans  &trans      &trans  &trans  &none   &trans  &mt LG(LBKT) LG(LS(LBKT))      &mt LC(LA(LS(UP))) LC(LA(UP))  &mt LG(RBKT) LG(LS(RBKT))        &mt HOME PAGE_UP   &trans
-&trans  &kp Z   &kp X   &mt LA(LS(LEFT)) LA(LEFT)  &mt LA(LS(RIGHT)) LA(RIGHT)  &mt LC(V) LS(V)                  &trans      &trans                  &trans  &mt LC(LS(LEFT)) LA(LC(LEFT))  &mt LG(M) LC(LA(DOWN))         &mt LC(LS(RIGHT)) LC(LA(RIGHT))  &mt END PAGE_DOWN  &kp RSHFT
+&trans  &trans  &trans  &trans                     &trans                       &trans           &trans                                      &trans  &trans  &trans                         &trans                         &trans                           &trans             &trans
+&trans  &trans  &trans  &trans                     &trans                       &trans           &none                                       &none   &trans  &trans                         &mkp MB1                       &trans                           &trans             &trans
+&trans  &trans  &trans  &mt LG(LS(LEFT)) LG(LEFT)  &mt LG(LS(RIGHT)) LG(RIGHT)  &trans           &none   &trans  &trans      &trans  &trans  &none   &trans  &mt LG(LBKT) LG(LS(LBKT))      &mt LC(LA(LS(UP))) LC(LA(UP))  &mt LG(RBKT) LG(LS(RBKT))        &mt HOME PAGE_UP   &trans
+&trans  &trans  &trans  &mt LA(LS(LEFT)) LA(LEFT)  &mt LA(LS(RIGHT)) LA(RIGHT)  &mt LC(V) LS(V)                  &trans      &trans                  &trans  &mt LC(LS(LEFT)) LA(LC(LEFT))  &mt LG(M) LC(LA(DOWN))         &mt LC(LS(RIGHT)) LC(LA(RIGHT))  &mt END PAGE_DOWN  &trans
 &mo 2   &trans  &trans  &trans                     &trans                                        &trans  &mo 1   &trans      &trans  &trans  &trans          &kp LG(BACKSPACE)              &kp LA(BACKSPACE)              &trans                           &trans             &mo 2
             >;
         };
