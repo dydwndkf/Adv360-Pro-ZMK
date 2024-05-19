@@ -103,13 +103,13 @@
             timeout-ms = <75>;
         };
 
-        bsp_cmd {
-            bindings = <&kp LG(BACKSPACE)>;
+        bsp_lalt {
+            bindings = <&kp LA(BACKSPACE)>;
             key-positions = <40 41>;
             timeout-ms = <75>;
         };
 
-        bsp_opt {
+        bsp_lg {
             bindings = <&kp LG(BACKSPACE)>;
             key-positions = <54 55>;
             timeout-ms = <75>;
