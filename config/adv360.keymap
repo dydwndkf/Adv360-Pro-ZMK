@@ -44,6 +44,7 @@
         lang {
             bindings = <&kp RCMD>;
             key-positions = <41 42>;
+            timeout-ms = <55>;
         };
 
         copy {
