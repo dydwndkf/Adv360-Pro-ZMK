@@ -72,6 +72,18 @@
             key-positions = <44 45>;
             timeout-ms = <70>;
         };
+
+        left_bkt {
+            bindings = <&kp LBKT>;
+            key-positions = <55 56>;
+            timeout-ms = <75>;
+        };
+
+        right_bkt {
+            bindings = <&kp RBKT>;
+            key-positions = <56 57>;
+            timeout-ms = <75>;
+        };
     };
 
     keymap {
