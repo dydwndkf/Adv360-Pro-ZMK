@@ -119,6 +119,12 @@
             key-positions = <40 42>;
             timeout-ms = <90>;
         };
+
+        caret {
+            bindings = <&kp CARET>;
+            key-positions = <15 16>;
+            timeout-ms = <90>;
+        };
     };
 
     keymap {
