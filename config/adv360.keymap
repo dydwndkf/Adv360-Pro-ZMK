@@ -51,13 +51,13 @@
         copy {
             bindings = <&kp LG(C)>;
             key-positions = <48 49>;
-            timeout-ms = <80>;
+            timeout-ms = <85>;
         };
 
         paste {
             bindings = <&kp LG(V)>;
             key-positions = <50 49>;
-            timeout-ms = <80>;
+            timeout-ms = <85>;
         };
 
         line_select {
