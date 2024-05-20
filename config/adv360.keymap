@@ -131,6 +131,12 @@
             key-positions = <41 43>;
             timeout-ms = <90>;
         };
+
+        lang_left {
+            bindings = <&kp RCMD>;
+            key-positions = <50 51>;
+            timeout-ms = <80>;
+        };
     };
 
     keymap {
