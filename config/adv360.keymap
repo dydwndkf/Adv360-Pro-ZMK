@@ -125,6 +125,12 @@
             key-positions = <15 16>;
             timeout-ms = <90>;
         };
+
+        semi {
+            bindings = <&kp SEMI>;
+            key-positions = <41 43>;
+            timeout-ms = <90>;
+        };
     };
 
     keymap {
