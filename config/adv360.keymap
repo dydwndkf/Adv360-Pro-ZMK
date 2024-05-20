@@ -158,11 +158,11 @@
 
         layer_fn___ {
             bindings = <
-&kp LG(GRAVE)  &kp LC(LA(LG(S)))  &kp LC(LA(LG(W)))  &mt LS(LG(N4)) LG(LS(LC(N4)))  &kp LA(LC(LG(C)))  &kp LA(LC(LG(E)))  &kp LA(LC(LG(F)))                                      &trans  &trans    &trans             &trans             &trans             &trans             &trans
-&kp LC(TAB)    &trans             &trans             &trans                         &trans             &trans             &trans                                                 &trans  &trans    &kp LA(LC(LG(V)))  &kp LA(LC(LG(I)))  &kp LA(LC(LG(D)))  &kp LA(LC(LG(P)))  &kp LA(LC(LG(O)))
-&trans         &trans             &trans             &trans                         &trans             &trans             &trans             &trans  &trans      &trans  &trans  &trans  &trans    &kp UP             &trans             &trans             &trans             &kp LA(SPACE)
-&trans         &trans             &trans             &trans                         &trans             &trans                                        &trans      &trans                  &kp LEFT  &kp DOWN           &kp RIGHT          &trans             &trans             &kp LA(S)
-&trans         &trans             &trans             &trans                         &trans                                &trans             &trans  &trans      &trans  &trans  &trans            &trans             &trans             &trans             &kp LG(GRAVE)      &trans
+&kp LG(GRAVE)  &kp LC(LA(LG(S)))  &kp LC(LA(LG(W)))  &mt LS(LG(N4)) LG(LS(LC(N4)))  &kp LA(LC(LG(C)))  &kp LA(LC(LG(E)))  &kp LA(LC(LG(F)))                                      &trans  &trans         &trans             &trans             &trans             &trans             &trans
+&kp LC(TAB)    &trans             &trans             &trans                         &trans             &trans             &trans                                                 &trans  &trans         &kp LA(LC(LG(V)))  &kp LA(LC(LG(I)))  &kp LA(LC(LG(D)))  &kp LA(LC(LG(P)))  &kp LA(LC(LG(O)))
+&trans         &trans             &trans             &trans                         &trans             &trans             &trans             &trans  &trans      &trans  &trans  &trans  &kp BACKSPACE  &kp UP             &trans             &trans             &trans             &kp LA(SPACE)
+&trans         &trans             &trans             &trans                         &trans             &trans                                        &trans      &trans                  &kp LEFT       &kp DOWN           &kp RIGHT          &trans             &trans             &kp LA(S)
+&trans         &trans             &trans             &trans                         &trans                                &trans             &trans  &trans      &trans  &trans  &trans                 &trans             &trans             &trans             &kp LG(GRAVE)      &trans
             >;
         };
 
