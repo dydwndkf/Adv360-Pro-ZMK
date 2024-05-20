@@ -152,7 +152,7 @@
 &trans  &trans        &trans  &trans  &trans            &trans             &none                                                          &kp C_VOL_UP         &trans             &kp LG(LBKT)                   &trans                         &kp LG(RBKT)                     &trans         &trans
 &trans  &kp LG(A)     &trans  &trans  &mt HOME PAGE_UP  &mt END PAGE_DOWN  &trans  &bt BT_SEL 1  &bt BT_SEL 3      &trans  &kp LA(SPACE)  &mt C_MUTE C_VOL_UP  &kp LG(BACKSPACE)  &mt LG(LBKT) LG(LS(LBKT))      &mt LC(LA(LS(UP))) LC(LA(UP))  &mt LG(RBKT) LG(LS(RBKT))        &trans         &trans
 &trans  &trans        &trans  &trans  &trans            &trans                                   &trans            &trans                                      &kp LA(BACKSPACE)  &mt LC(LS(LEFT)) LA(LC(LEFT))  &mt LG(M) LC(LA(DOWN))         &mt LC(LS(RIGHT)) LC(LA(RIGHT))  &trans         &trans
-&trans  &trans        &trans  &trans  &trans                               &trans  &trans        &trans            &trans  &kp LA(S)      &kp LS(ENTER)                           &trans                         &trans                         &trans                           &kp LG(GRAVE)  &trans
+&trans  &trans        &trans  &trans  &trans                               &trans  &trans        &trans            &trans  &kp LA(N0)     &kp LS(ENTER)                           &trans                         &trans                         &trans                           &kp LG(GRAVE)  &trans
             >;
         };
 
@@ -182,7 +182,7 @@
 &kp GRAVE  &kp N1        &kp N2          &kp N3        &kp N4  &kp N5  &kp N6                                      &trans  &kp NUMBER_6  &kp N7        &kp N8  &kp N9  &kp N0         &kp EQUAL
 &trans     &kp LEFT_GUI  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans        &kp N4        &kp N5  &kp N6  &trans         &trans
 &trans     &trans        &trans          &trans        &trans  &trans                  &trans      &trans                  &trans        &kp NUMBER_1  &kp N2  &kp N3  &trans         &trans
-&trans     &trans        &trans          &trans        &trans          &trans  &trans  &trans      &trans  &trans  &trans                &kp N0        &kp N0  &trans  &trans         &trans
+&trans     &trans        &trans          &trans        &trans          &trans  &trans  &trans      &trans  &trans  &kp N0                &kp N0        &kp N0  &trans  &trans         &trans
             >;
         };
     };
