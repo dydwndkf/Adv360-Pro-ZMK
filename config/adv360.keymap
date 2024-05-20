@@ -114,9 +114,9 @@
             timeout-ms = <90>;
         };
 
-        colon {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <43 44>;
+        aster {
+            bindings = <&kp LS(ASTRK)>;
+            key-positions = <40 42>;
             timeout-ms = <90>;
         };
     };
