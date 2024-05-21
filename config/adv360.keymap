@@ -103,7 +103,7 @@
         };
 
         dot {
-            bindings = <&kp DOT>;
+            bindings = <&kp B>;
             key-positions = <54 55>;
             timeout-ms = <90>;
         };
