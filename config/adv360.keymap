@@ -102,8 +102,8 @@
             timeout-ms = <90>;
         };
 
-        b {
-            bindings = <&kp LA(BACKSPACE)>;
+        dot {
+            bindings = <&kp DOT>;
             key-positions = <54 55>;
             timeout-ms = <90>;
         };
