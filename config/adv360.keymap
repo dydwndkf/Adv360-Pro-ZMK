@@ -116,13 +116,7 @@
 
         aster {
             bindings = <&kp LS(ASTRK)>;
-            key-positions = <40 42>;
-            timeout-ms = <90>;
-        };
-
-        caret {
-            bindings = <&kp CARET>;
-            key-positions = <15 16>;
+            key-positions = <23 25>;
             timeout-ms = <90>;
         };
 
