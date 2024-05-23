@@ -108,9 +108,9 @@
             timeout-ms = <90>;
         };
 
-        bsp_lg {
+        caret {
             bindings = <&kp CARET>;
-            key-positions = <22 23>;
+            key-positions = <32 33>;
             timeout-ms = <90>;
         };
 
