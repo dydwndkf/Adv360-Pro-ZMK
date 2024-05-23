@@ -131,6 +131,18 @@
             key-positions = <50 51>;
             timeout-ms = <80>;
         };
+
+        select_b {
+            bindings = <&kp LS(LA(LEFT))>;
+            key-positions = <33 34>;
+            timeout-ms = <90>;
+        };
+
+        select_f {
+            bindings = <&kp LS(LA(RIGHT))>;
+            key-positions = <19 20>;
+            timeout-ms = <90>;
+        };
     };
 
     keymap {
