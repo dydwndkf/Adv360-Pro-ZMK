@@ -60,8 +60,8 @@
             timeout-ms = <85>;
         };
 
-        line_select {
-            bindings = <&kp LS(V)>;
+        cut {
+            bindings = <&kp LG(X)>;
             key-positions = <50 48>;
             timeout-ms = <80>;
         };
