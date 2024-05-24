@@ -132,15 +132,21 @@
             timeout-ms = <80>;
         };
 
-        select_b {
-            bindings = <&kp LS(LA(LEFT))>;
+        dollar {
+            bindings = <&kp LS(DOLLAR)>;
             key-positions = <33 34>;
             timeout-ms = <90>;
         };
 
-        select_f {
-            bindings = <&kp LS(LA(RIGHT))>;
+        left_paren {
+            bindings = <&kp LS(LEFT_PARENTHESIS)>;
             key-positions = <19 20>;
+            timeout-ms = <90>;
+        };
+
+        right_paren {
+            bindings = <&kp LS(RIGHT_PARENTHESIS)>;
+            key-positions = <21 22>;
             timeout-ms = <90>;
         };
     };
