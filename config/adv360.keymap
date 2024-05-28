@@ -42,8 +42,8 @@
             timeout-ms = <90>;
         };
 
-        lang {
-            bindings = <&kp RCMD>;
+        move_left {
+            bindings = <&kp LA(LEFT)>;
             key-positions = <41 42>;
             timeout-ms = <80>;
         };
@@ -78,12 +78,6 @@
             timeout-ms = <90>;
         };
 
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <71 72>;
-            timeout-ms = <80>;
-        };
-
         minus {
             bindings = <&kp MINUS>;
             key-positions = <55 57>;
@@ -96,9 +90,9 @@
             timeout-ms = <90>;
         };
 
-        bsp_lalt {
-            bindings = <&kp LG(BACKSPACE)>;
-            key-positions = <40 39>;
+        move_right {
+            bindings = <&kp LA(RIGHT)>;
+            key-positions = <40 41>;
             timeout-ms = <90>;
         };
 
@@ -116,7 +110,7 @@
 
         aster {
             bindings = <&kp LS(ASTRK)>;
-            key-positions = <40 41>;
+            key-positions = <40 39>;
             timeout-ms = <90>;
         };
 
