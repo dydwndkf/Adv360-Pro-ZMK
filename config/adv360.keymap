@@ -96,12 +96,6 @@
             timeout-ms = <90>;
         };
 
-        b {
-            bindings = <&kp B>;
-            key-positions = <54 55>;
-            timeout-ms = <90>;
-        };
-
         caret {
             bindings = <&kp CARET>;
             key-positions = <32 33>;
