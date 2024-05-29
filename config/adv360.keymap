@@ -44,7 +44,7 @@
 
         move_left {
             bindings = <&mt LG(LEFT) LA(LEFT)>;
-            key-positions = <41 42>;
+            key-positions = <41 40>;
             timeout-ms = <80>;
         };
 
@@ -91,8 +91,8 @@
         };
 
         move_right {
-            bindings = <&kp LA(RIGHT)>;
-            key-positions = <40 41>;
+            bindings = <&mt LG(RIGHT) LA(RIGHT)>;
+            key-positions = <41 42>;
             timeout-ms = <90>;
         };
 
@@ -120,12 +120,6 @@
             timeout-ms = <90>;
         };
 
-        lang_left {
-            bindings = <&kp RCMD>;
-            key-positions = <50 51>;
-            timeout-ms = <80>;
-        };
-
         dollar {
             bindings = <&kp LS(DOLLAR)>;
             key-positions = <33 34>;
@@ -134,13 +128,13 @@
 
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <19 20>;
+            key-positions = <50 51>;
             timeout-ms = <90>;
         };
 
         right_paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <21 22>;
+            key-positions = <54 55>;
             timeout-ms = <90>;
         };
     };
