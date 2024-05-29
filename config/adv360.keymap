@@ -110,13 +110,13 @@
 
         aster {
             bindings = <&kp LS(ASTRK)>;
-            key-positions = <40 39>;
+            key-positions = <54 55>;
             timeout-ms = <90>;
         };
 
         semi {
             bindings = <&kp SEMI>;
-            key-positions = <54 56>;
+            key-positions = <41 43>;
             timeout-ms = <90>;
         };
 
