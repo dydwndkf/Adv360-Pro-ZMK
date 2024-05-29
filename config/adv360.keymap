@@ -44,7 +44,7 @@
 
         move_left {
             bindings = <&mt LG(LEFT) LA(LEFT)>;
-            key-positions = <41 40>;
+            key-positions = <42 41>;
             timeout-ms = <80>;
         };
 
@@ -92,7 +92,7 @@
 
         move_right {
             bindings = <&mt LG(RIGHT) LA(RIGHT)>;
-            key-positions = <41 42>;
+            key-positions = <41 40>;
             timeout-ms = <90>;
         };
 
