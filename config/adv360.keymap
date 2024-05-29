@@ -131,12 +131,6 @@
             key-positions = <50 51>;
             timeout-ms = <90>;
         };
-
-        right_paren {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <54 55>;
-            timeout-ms = <90>;
-        };
     };
 
     keymap {
