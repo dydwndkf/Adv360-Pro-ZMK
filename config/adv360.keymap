@@ -43,7 +43,7 @@
         };
 
         move_left {
-            bindings = <&kp LA(LEFT)>;
+            bindings = <&mt LG(LEFT) LA(LEFT)>;
             key-positions = <41 42>;
             timeout-ms = <80>;
         };
