@@ -162,11 +162,11 @@
 
         layer_left {
             bindings = <
-&trans  &kp LG(LA(LC(S)))  &kp LG(LA(LC(W)))  &mt LG(LS(N4)) LG(LS(LC(N4)))  &trans  &trans             &kp LG(LA(LC(F)))                                                            &trans  &trans                         &trans                         &trans                           &trans  &trans  &trans
-&trans  &trans             &kp N7             &kp N8                         &kp N9  &kp N0             &mt LS(LA(LC(LG(SQT)))) LS(LC(LA(SQT)))                                      &trans  &trans                         &trans                         &trans                           &trans  &trans  &trans
-&trans  &trans             &kp N4             &kp N5                         &kp N6  &kp LG(LA(LC(C)))  &kp LG(LA(LC(E)))                        &trans  &trans      &trans  &trans  &trans  &trans                         &mt LC(LA(LS(UP))) LC(LA(UP))  &trans                           &trans  &trans  &trans
-&trans  &trans             &kp N1             &kp N2                         &kp N3  &kp LG(LA(LC(W)))                                                   &trans      &trans                  &mt LC(LS(LEFT)) LC(LA(LEFT))  &kp LA(LC(DOWN))               &mt LC(LS(RIGHT)) LC(LA(RIGHT))  &trans  &trans  &trans
-&trans  &trans             &trans             &trans                         &trans                     &trans                                   &trans  &trans      &trans  &none   &trans                                 &trans                         &trans                           &trans  &trans  &trans
+&trans  &kp LG(LA(LC(S)))  &trans  &mt LG(LS(N4)) LG(LS(LC(N4)))  &trans  &trans             &kp LG(LA(LC(F)))                                                            &trans  &trans                         &trans                         &trans                           &trans  &trans  &trans
+&trans  &trans             &kp N7  &kp N8                         &kp N9  &kp N0             &mt LS(LA(LC(LG(SQT)))) LS(LC(LA(SQT)))                                      &trans  &trans                         &trans                         &trans                           &trans  &trans  &trans
+&trans  &trans             &kp N4  &kp N5                         &kp N6  &kp LG(LA(LC(C)))  &kp LG(LA(LC(E)))                        &trans  &trans      &trans  &trans  &trans  &trans                         &mt LC(LA(LS(UP))) LC(LA(UP))  &trans                           &trans  &trans  &trans
+&trans  &trans             &kp N1  &kp N2                         &kp N3  &kp LG(LA(LC(W)))                                                   &trans      &trans                  &mt LC(LS(LEFT)) LC(LA(LEFT))  &kp LA(LC(DOWN))               &mt LC(LS(RIGHT)) LC(LA(RIGHT))  &trans  &trans  &trans
+&trans  &trans             &trans  &trans                         &trans                     &trans                                   &trans  &trans      &trans  &none   &trans                                 &trans                         &trans                           &trans  &trans  &trans
             >;
         };
     };
