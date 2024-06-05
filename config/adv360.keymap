@@ -48,24 +48,6 @@
             timeout-ms = <80>;
         };
 
-        copy {
-            bindings = <&kp LG(C)>;
-            key-positions = <48 49>;
-            timeout-ms = <85>;
-        };
-
-        paste {
-            bindings = <&kp LG(V)>;
-            key-positions = <50 49>;
-            timeout-ms = <85>;
-        };
-
-        cut {
-            bindings = <&kp LG(X)>;
-            key-positions = <50 48>;
-            timeout-ms = <80>;
-        };
-
         left_bkt {
             bindings = <&kp LBKT>;
             key-positions = <55 56>;
