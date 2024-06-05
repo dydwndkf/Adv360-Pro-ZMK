@@ -74,7 +74,7 @@
 
         move_right {
             bindings = <&mt LG(RIGHT) LA(RIGHT)>;
-            key-positions = <41 40>;
+            key-positions = <33 34>;
             timeout-ms = <90>;
         };
 
@@ -98,12 +98,6 @@
 
         dollar {
             bindings = <&kp LS(DOLLAR)>;
-            key-positions = <33 34>;
-            timeout-ms = <90>;
-        };
-
-        left_paren {
-            bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <50 51>;
             timeout-ms = <90>;
         };
