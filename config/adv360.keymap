@@ -142,11 +142,11 @@
 
         layer_right {
             bindings = <
-&trans       &trans     &trans         &trans                         &trans                         &trans                           &trans                                                                                    &trans               &trans             &trans        &trans             &trans             &trans             &trans
-&kp LC(TAB)  &kp LG(Q)  &kp LG(W)      &kp LG(GRAVE)                  &kp LG(R)                      &mt LG(LS(T)) LG(T)              &mt LG(LC(LA(LS(SQT)))) LA(LC(LG(SQT)))                                                   &kp C_VOL_UP         &kp LG(LC(LA(O)))  &trans        &kp LA(LC(LG(I)))  &kp LA(LC(LG(D)))  &kp LA(LC(LG(P)))  &trans
-&trans       &kp LGUI   &kp LALT       &kp LSHFT                      &mt LC(LA(LS(UP))) LC(LA(UP))  &mt LG(LBKT) LC(PAGE_UP)         &mt LG(RBKT) LC(PAGE_DOWN)               &trans  &trans      &bt BT_SEL 0  &kp LG(GRAVE)  &mt C_MUTE C_VOL_DN  &trans             &kp UP_ARROW  &trans             &trans             &kp LA(LC(LG(V)))  &trans
-&trans       &kp LG(Z)  &kp LG(LS(Z))  &mt LC(LS(LEFT)) LC(LA(LEFT))  &mt LG(M) LC(LA(DOWN))         &mt LC(LS(RIGHT)) LC(LA(RIGHT))                                                   &trans      &trans                                            &kp LEFT_ARROW     &kp DOWN      &kp RIGHT          &trans             &trans             &trans
-&trans       &trans     &trans         &trans                         &trans                                                          &trans                                   &trans  &trans      &trans        &trans         &trans                                  &trans        &trans             &trans             &trans             &trans
+&trans  &trans        &trans    &trans     &trans  &trans  &trans                                                   &trans               &trans             &trans        &trans             &trans             &trans             &trans
+&trans  &trans        &trans    &trans     &trans  &trans  &trans                                                   &kp C_VOL_UP         &kp LG(LC(LA(O)))  &trans        &kp LA(LC(LG(I)))  &kp LA(LC(LG(D)))  &kp LA(LC(LG(P)))  &trans
+&trans  &kp LEFT_GUI  &kp LALT  &kp LSHFT  &trans  &trans  &trans  &trans  &trans      &bt BT_SEL 0  &kp LG(GRAVE)  &mt C_MUTE C_VOL_DN  &trans             &kp UP_ARROW  &trans             &trans             &kp LA(LC(LG(V)))  &trans
+&trans  &trans        &trans    &trans     &trans  &trans                  &trans      &trans                                            &kp LEFT_ARROW     &kp DOWN      &kp RIGHT          &trans             &trans             &trans
+&trans  &trans        &trans    &trans     &trans          &trans  &trans  &trans      &trans        &trans         &trans                                  &trans        &trans             &trans             &trans             &trans
             >;
         };
 
