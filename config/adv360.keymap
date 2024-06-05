@@ -168,11 +168,11 @@
 
         layer_browser {
             bindings = <
-&trans  &trans  &trans     &trans  &trans  &trans  &trans                                      &trans  &trans               &trans                &trans             &trans                 &trans  &trans
-&trans  &trans  &kp LG(W)  &trans  &trans  &trans  &trans                                      &trans  &mt LG(LS(T)) LG(T)  &trans                &kp LG(LS(A))      &trans                 &trans  &trans
-&trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LG(GRAVE)        &kp LG(LEFT_BRACKET)  &mt HOME PAGE_UP   &kp LG(RIGHT_BRACKET)  &trans  &trans
-&trans  &trans  &trans     &trans  &trans  &trans                  &trans      &trans                  &trans               &kp LC(PAGE_UP)       &mt END PAGE_DOWN  &kp LC(PAGE_DOWN)      &trans  &trans
-&trans  &trans  &trans     &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                       &trans                &trans             &trans                 &trans  &trans
+&trans  &trans  &trans     &trans  &trans     &trans  &trans                                      &trans  &trans               &trans                &trans             &trans                 &trans  &trans
+&trans  &trans  &kp LG(W)  &trans  &kp LG(R)  &trans  &trans                                      &trans  &mt LG(LS(T)) LG(T)  &trans                &kp LG(LS(A))      &trans                 &trans  &trans
+&trans  &trans  &trans     &trans  &trans     &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LG(GRAVE)        &kp LG(LEFT_BRACKET)  &mt HOME PAGE_UP   &kp LG(RIGHT_BRACKET)  &trans  &trans
+&trans  &trans  &trans     &trans  &trans     &trans                  &trans      &trans                  &trans               &kp LC(PAGE_UP)       &mt END PAGE_DOWN  &kp LC(PAGE_DOWN)      &trans  &trans
+&trans  &trans  &trans     &trans  &trans             &trans  &trans  &trans      &trans  &trans  &trans                       &trans                &trans             &trans                 &trans  &trans
             >;
         };
     };
