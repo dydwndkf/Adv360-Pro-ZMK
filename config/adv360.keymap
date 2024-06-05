@@ -159,9 +159,9 @@
         layer_special {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans         &trans         &trans        &trans      &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &trans      &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)  &kp GRAVE   &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(LPAR)   &kp LS(RPAR)   &kp LS(LT)    &kp LS(GT)  &kp EQUAL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp LS(STAR)   &kp MINUS      &kp LBKT      &kp RBKT    &kp GRAVE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp LS(STAR)   &kp MINUS      &kp LBKT      &kp RBKT    &trans     &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                 &trans         &trans        &trans      &trans     &trans
             >;
         };
