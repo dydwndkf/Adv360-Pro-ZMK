@@ -136,7 +136,7 @@
 &kp TAB           &kp Q               &kp W           &kp E             &kp R               &kp T   &kp Y                                                                                                                                     &kp T        &kp Y    &kp U               &kp I            &kp O           &kp P                   &kp BSLH
 &kp ESCAPE        &hm LEFT_GUI A      &hm LEFT_ALT S  &hm LEFT_SHIFT D  &lt 3 F             &kp G   &kp H                 &mt LG(LEFT) LA(LEFT)  &mt LG(RIGHT) LA(RIGHT)      &mt LS(LG(LEFT)) LS(LA(LEFT))  &mt LS(LG(RIGHT)) LS(LA(RIGHT))  &mt LS(B) B  &lt 3 H  &hm LEFT_SHIFT J    &hm RIGHT_ALT K  &hm LEFT_GUI L  &kp SQT                 &kp SEMI
 &kp LSHFT         &hm LEFT_CONTROL Z  &kp X           &kp C             &kp V               &kp B                                                &mt LG(X) LG(C)              &kp LG(LS(Z))                                                                &kp N    &kp M               &kp COMMA        &kp DOT         &hm LEFT_CONTROL SLASH  &kp RSHFT
-&kp LEFT_CONTROL  &mt LCTRL LEFT      &mt LSHFT DOWN  &mt LALT SPACE    &mt LCMD RIGHT_GUI          &mt LEFT_SHIFT SPACE  &lt 4 DELETE           &mt LG(LS(V)) LG(V)          &kp LG(Z)                      &lt 1 RIGHT_GUI                  &lt 1 ENTER           &mt LCMD BACKSPACE  &mt LALT SPACE   &mt RSHFT DOT   &mt LEFT_CONTROL SLASH  &mo 2
+&kp LEFT_CONTROL  &mt LCTRL LEFT      &mt LSHFT DOWN  &mt LALT SPACE    &mt LCMD RIGHT_GUI          &mt LEFT_SHIFT SPACE  &lt 4 DELETE           &mt LG(LS(V)) LG(V)          &kp LG(Z)                      &lt 1 RIGHT_GUI                  &kp ENTER             &mt LCMD BACKSPACE  &mt LALT SPACE   &mt RSHFT DOT   &mt LEFT_CONTROL SLASH  &mo 2
             >;
         };
 
