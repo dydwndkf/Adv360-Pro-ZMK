@@ -101,6 +101,12 @@
             key-positions = <42 43>;
             timeout-ms = <90>;
         };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <56 58>;
+            timeout-ms = <90>;
+        };
     };
 
     keymap {
