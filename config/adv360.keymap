@@ -149,7 +149,7 @@
         layer_special {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans          &trans         &trans            &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp PERCENT   &kp AMPERSAND   &kp PIPE       &kp GRAVE         &kp GRAVE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp PERCENT   &kp AMPERSAND   &kp PIPE       &kp GRAVE         &kp TILDE  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp HASH      &kp CARET       &kp DOLLAR     &kp EQUAL         &kp PLUS   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp ASTERISK  &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                &trans          &trans         &trans            &trans     &trans
