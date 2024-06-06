@@ -89,6 +89,18 @@
             key-positions = <50 51>;
             timeout-ms = <90>;
         };
+
+        left_paren {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <41 42>;
+            timeout-ms = <90>;
+        };
+
+        right_paren {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <42 43>;
+            timeout-ms = <90>;
+        };
     };
 
     keymap {
