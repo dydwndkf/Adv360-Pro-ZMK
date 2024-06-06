@@ -89,18 +89,6 @@
             key-positions = <50 51>;
             timeout-ms = <90>;
         };
-
-        move_left {
-            bindings = <&mt LG(LEFT_ARROW) LA(LEFT_ARROW)>;
-            key-positions = <49 50>;
-            timeout-ms = <95>;
-        };
-
-        move_right {
-            bindings = <&mt LG(RIGHT) LA(RIGHT)>;
-            key-positions = <48 49>;
-            timeout-ms = <95>;
-        };
     };
 
     keymap {
@@ -168,11 +156,11 @@
 
         layer_numpad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &kp N0  &trans                                      &trans  &trans  &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans                  &trans      &trans                  &trans  &trans          &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &none   &trans      &trans  &trans  &trans          &trans          &trans  &trans  &trans  &trans
             >;
         };
     };
