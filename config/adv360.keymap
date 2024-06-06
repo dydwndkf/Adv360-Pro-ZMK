@@ -93,13 +93,13 @@
         move_left {
             bindings = <&mt LG(LEFT_ARROW) LA(LEFT_ARROW)>;
             key-positions = <49 50>;
-            timeout-ms = <90>;
+            timeout-ms = <95>;
         };
 
         move_right {
             bindings = <&mt LG(RIGHT) LA(RIGHT)>;
             key-positions = <48 49>;
-            timeout-ms = <90>;
+            timeout-ms = <95>;
         };
     };
 
