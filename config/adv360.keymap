@@ -148,11 +148,11 @@
 
         layer_special {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans          &trans                &trans                 &trans            &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp LS(PRCNT)   &kp LS(CARET)         &kp LS(AMPS)           &kp GRAVE         &kp PIPE   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE   &kp EQUAL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp ASTERISK    &kp UNDERSCORE        &kp LESS_THAN          &kp GREATER_THAN  &trans     &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &trans                &trans                 &trans            &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans          &trans         &trans            &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &kp AMPERSAND   &kp PIPE       &kp GRAVE         &kp GRAVE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp PERCENT   &kp CARET       &kp DOLLAR     &kp EQUAL         &kp PLUS   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp ASTERISK  &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                &trans          &trans         &trans            &trans     &trans
             >;
         };
 
