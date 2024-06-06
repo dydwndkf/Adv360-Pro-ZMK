@@ -42,12 +42,6 @@
             timeout-ms = <90>;
         };
 
-        move_left {
-            bindings = <&mt LG(LEFT) LA(LEFT)>;
-            key-positions = <42 41>;
-            timeout-ms = <80>;
-        };
-
         left_bkt {
             bindings = <&kp LBKT>;
             key-positions = <55 56>;
@@ -72,12 +66,6 @@
             timeout-ms = <90>;
         };
 
-        move_right {
-            bindings = <&mt LG(RIGHT) LA(RIGHT)>;
-            key-positions = <33 34>;
-            timeout-ms = <90>;
-        };
-
         caret {
             bindings = <&kp CARET>;
             key-positions = <32 33>;
@@ -85,7 +73,7 @@
         };
 
         aster {
-            bindings = <&kp LS(ASTRK)>;
+            bindings = <&kp ASTRK>;
             key-positions = <54 55>;
             timeout-ms = <90>;
         };
@@ -97,8 +85,20 @@
         };
 
         dollar {
-            bindings = <&kp LS(DOLLAR)>;
+            bindings = <&kp DOLLAR>;
             key-positions = <50 51>;
+            timeout-ms = <90>;
+        };
+
+        move_left {
+            bindings = <&mt LG(LEFT_ARROW) LA(LEFT_ARROW)>;
+            key-positions = <49 50>;
+            timeout-ms = <90>;
+        };
+
+        move_right {
+            bindings = <&mt LG(RIGHT) LA(RIGHT)>;
+            key-positions = <48 49>;
             timeout-ms = <90>;
         };
     };
