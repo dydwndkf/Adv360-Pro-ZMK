@@ -108,11 +108,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE         &kp N1              &kp N2           &kp N3              &kp N4              &kp N5  &kp N6                                                                                                                                &kp N6       &kp N7   &kp N8              &kp N9           &kp N0               &kp MINUS               &kp EQUAL
-&kp TAB           &lt 4 Q             &kp W            &kp E               &kp R               &kp T   &kp Y                                                                                                                                 &kp T        &kp Y    &kp U               &kp I            &kp O                &kp P                   &kp BSLH
-&kp ESCAPE        &lt 5 A             &hm LEFT_GUI S   &hm LS(LEFT_ALT) D  &hm LEFT_SHIFT F    &kp G   &mo 2                 &mt LG(LEFT_BRACKET) LC(PAGE_UP)  &mt LG(RIGHT_BRACKET) LC(PAGE_DOWN)      &mt HOME PAGE_UP  &mt END PAGE_DOWN  &mt LS(B) B  &lt 0 H  &hm LEFT_SHIFT J    &hm RIGHT_ALT K  &hm LEFT_GUI L       &kp SQT                 &kp SEMI
-&kp LSHFT         &hm LEFT_CONTROL Z  &kp X            &kp C               &kp V               &kp B                                                           &mt LG(X) LG(C)                          &kp LG(LS(Z))                                     &kp N    &kp M               &kp COMMA        &kp DOT              &kp SLASH               &kp RSHFT
-&kp LEFT_CONTROL  &mt LCTRL LEFT      &mt LSHFT LG(C)  &mt LALT LG(V)      &mt LCMD RIGHT_GUI          &mt LEFT_SHIFT SPACE  &lt 3 DELETE                      &mt LG(LS(V)) LG(V)                      &kp LG(Z)         &lt 1 RIGHT_GUI    &kp ENTER             &mt LCMD BACKSPACE  &mt LALT LG(Z)   &mt RSHFT LG(LS(Z))  &mt LEFT_CONTROL SLASH  &mo 2
+&kp GRAVE         &kp N1              &kp N2           &kp N3              &kp N4              &kp N5  &kp N6                                                                                                                                &kp N6       &kp N7  &kp N8              &kp N9           &kp N0               &kp MINUS               &kp EQUAL
+&kp TAB           &lt 4 Q             &kp W            &kp E               &kp R               &kp T   &kp Y                                                                                                                                 &kp T        &kp Y   &kp U               &kp I            &kp O                &kp P                   &kp BSLH
+&kp ESCAPE        &lt 5 A             &hm LEFT_GUI S   &hm LS(LEFT_ALT) D  &hm LEFT_SHIFT F    &kp G   &mo 2                 &mt LG(LEFT_BRACKET) LC(PAGE_UP)  &mt LG(RIGHT_BRACKET) LC(PAGE_DOWN)      &mt HOME PAGE_UP  &mt END PAGE_DOWN  &mt LS(B) B  &kp H   &hm LEFT_SHIFT J    &hm RIGHT_ALT K  &hm LEFT_GUI L       &kp SQT                 &kp SEMI
+&kp LSHFT         &hm LEFT_CONTROL Z  &kp X            &kp C               &kp V               &kp B                                                           &mt LG(X) LG(C)                          &kp LG(LS(Z))                                     &kp N   &kp M               &kp COMMA        &kp DOT              &kp SLASH               &kp RSHFT
+&kp LEFT_CONTROL  &mt LCTRL LEFT      &mt LSHFT LG(C)  &mt LALT LG(V)      &mt LCMD RIGHT_GUI          &mt LEFT_SHIFT SPACE  &lt 3 DELETE                      &mt LG(LS(V)) LG(V)                      &kp LG(Z)         &lt 1 RIGHT_GUI    &kp ENTER            &mt LCMD BACKSPACE  &mt LALT LG(Z)   &mt RSHFT LG(LS(Z))  &mt LEFT_CONTROL SLASH  &mo 2
             >;
         };
 
@@ -163,6 +163,16 @@
 &trans  &trans  &trans     &trans  &trans     &trans  &trans  &trans  &trans      &trans  &trans  &kp LG(GRAVE)  &kp LG(LEFT_BRACKET)  &mt HOME PAGE_UP   &kp LG(RIGHT_BRACKET)  &kp LG(LS(A))      &kp LG(LC(LA(S)))  &trans
 &trans  &trans  &trans     &trans  &trans     &trans                  &trans      &trans                         &kp LC(PAGE_UP)       &mt END PAGE_DOWN  &kp LC(PAGE_DOWN)      &trans             &trans             &trans
 &trans  &trans  &trans     &trans  &trans             &trans  &trans  &trans      &trans  &trans  &trans                               &trans             &trans                 &trans             &trans             &trans
+            >;
+        };
+
+        layer_numpad {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
