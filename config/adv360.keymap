@@ -144,11 +144,11 @@
 
         layer_left {
             bindings = <
-&trans  &trans  &trans  &mt LG(LS(N4)) LG(LS(LC(N4)))  &mt LG(LC(LA(LS(SQT)))) LC(LA(LS(SQT)))    &trans                           &trans                                                               &trans                    &trans  &trans  &trans             &trans             &trans             &trans
-&trans  &none   &none   &trans                         &kp LG(R)                                  &kp LG(T)                        &trans                                                               &kp C_VOLUME_UP           &trans  &trans  &kp LG(LC(LA(I)))  &kp LG(LC(LA(D)))  &kp LG(LC(LA(P)))  &trans
-&trans  &trans  &trans  &kp LG(LC(LEFT))               &mt LC(LA(LS(UP_ARROW))) LC(LA(UP_ARROW))  &kp LG(LC(RIGHT))                &trans  &bt BT_SEL 1  &bt BT_SEL 3      &bt BT_SEL 0  &kp LG(LC(Q))  &mt C_MUTE C_VOLUME_DOWN  &trans  &trans  &trans             &trans             &kp LG(LC(LA(V)))  &trans
-&trans  &trans  &trans  &mt LC(LS(LEFT)) LC(LA(LEFT))  &kp LC(LA(DOWN))                           &mt LC(LS(RIGHT)) LC(LA(RIGHT))                        &trans            &trans                                                 &trans  &trans  &trans             &trans             &trans             &trans
-&trans  &trans  &trans  &trans                         &trans                                                                      &trans  &none         &trans            &trans        &none          &trans                            &trans  &trans             &trans             &trans             &trans
+&trans  &trans  &trans  &mt LG(LS(N4)) LG(LS(LC(N4)))  &mt LG(LC(LA(LS(SQT)))) LC(LA(LS(SQT)))    &trans                           &trans                                                               &trans                    &trans  &trans                 &trans             &trans                   &trans             &trans
+&trans  &none   &none   &trans                         &kp LG(R)                                  &kp LG(T)                        &trans                                                               &kp C_VOLUME_UP           &trans  &trans                 &kp LG(LC(LA(I)))  &kp LG(LC(LA(D)))        &kp LG(LC(LA(P)))  &trans
+&trans  &trans  &trans  &kp LG(LC(LEFT))               &mt LC(LA(LS(UP_ARROW))) LC(LA(UP_ARROW))  &kp LG(LC(RIGHT))                &trans  &bt BT_SEL 1  &bt BT_SEL 3      &bt BT_SEL 0  &kp LG(LC(Q))  &mt C_MUTE C_VOLUME_DOWN  &trans  &trans                 &trans             &trans                   &kp LG(LC(LA(V)))  &trans
+&trans  &trans  &trans  &mt LC(LS(LEFT)) LC(LA(LEFT))  &kp LC(LA(DOWN))                           &mt LC(LS(RIGHT)) LC(LA(RIGHT))                        &trans            &trans                                                 &trans  &mt LG(LEFT) LA(LEFT)  &trans             &mt LG(RIGHT) LA(RIGHT)  &trans             &trans
+&trans  &trans  &trans  &trans                         &trans                                                                      &trans  &none         &trans            &trans        &none          &trans                            &trans                 &trans             &trans                   &trans             &trans
             >;
         };
 
