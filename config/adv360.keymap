@@ -154,11 +154,11 @@
 
         layer_special {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans          &trans         &trans            &trans     &trans
-&trans  &none   &trans  &trans  &trans  &trans  &trans                                      &trans  &kp PERCENT   &kp AMPERSAND   &kp PIPE       &kp GRAVE         &kp TILDE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp HASH      &kp CARET       &kp DOLLAR     &kp EQUAL         &kp PLUS   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp ASTERISK  &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN  &trans     &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &none   &trans      &trans  &none   &trans                &trans          &trans         &trans            &trans     &trans
+&none  &none  &none  &none  &none  &none  &none                                  &none  &none         &none           &none          &none             &none      &none
+&none  &none  &none  &none  &none  &none  &none                                  &none  &kp PERCENT   &kp AMPERSAND   &kp PIPE       &kp GRAVE         &kp TILDE  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none      &none  &none  &none  &kp HASH      &kp CARET       &kp DOLLAR     &kp EQUAL         &kp PLUS   &none
+&none  &none  &none  &none  &none  &none                &none      &none                &kp ASTERISK  &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN  &none      &none
+&none  &none  &none  &none  &none         &none  &none  &none      &none  &none  &none                &none           &none          &none             &none      &none
             >;
         };
 
