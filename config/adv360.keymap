@@ -124,11 +124,11 @@
 
         layer_right {
             bindings = <
-&trans  &trans  &trans        &trans        &trans          &trans  &trans                                      &trans  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &none   &trans        &trans        &trans          &trans  &trans                                      &trans  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
-&trans  &trans  &trans        &trans        &trans          &trans                  &trans      &trans                  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans        &trans        &trans                  &trans  &none   &trans      &trans  &trans  &trans          &trans    &trans        &trans     &trans  &trans
+&trans            &trans  &trans          &trans        &trans          &trans  &trans                                      &trans  &trans  &trans    &trans        &trans     &trans  &trans
+&trans            &none   &trans          &trans        &trans          &trans  &trans                                      &trans  &trans  &trans    &trans        &trans     &trans  &trans
+&trans            &trans  &kp LEFT_GUI    &kp LEFT_ALT  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
+&trans            &trans  &trans          &trans        &trans          &trans                  &trans      &trans                  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&kp LEFT_CONTROL  &trans  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI            &trans  &none   &trans      &trans  &trans  &trans          &trans    &trans        &trans     &trans  &trans
             >;
         };
 
