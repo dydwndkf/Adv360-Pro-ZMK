@@ -66,12 +66,6 @@
             timeout-ms = <90>;
         };
 
-        caret {
-            bindings = <&kp CARET>;
-            key-positions = <32 33>;
-            timeout-ms = <80>;
-        };
-
         aster {
             bindings = <&kp ASTRK>;
             key-positions = <54 55>;
@@ -81,12 +75,6 @@
         semi {
             bindings = <&kp SEMI>;
             key-positions = <41 43>;
-            timeout-ms = <90>;
-        };
-
-        dollar {
-            bindings = <&kp DOLLAR>;
-            key-positions = <50 51>;
             timeout-ms = <90>;
         };
 
