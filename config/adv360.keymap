@@ -140,7 +140,7 @@
 &none           &none  &none  &none  &none  &none  &none                                  &none  &kp PERCENT   &kp AMPERSAND  &kp PIPE              &kp GRAVE              &kp TILDE          &none
 &none           &none  &none  &none  &none  &none  &none  &none  &none      &none  &none  &none  &kp HASH      &kp CARET      &kp DOLLAR            &kp EQUAL              &kp DOUBLE_QUOTES  &none
 &kp LEFT_SHIFT  &none  &none  &none  &none  &none                &none      &none                &kp ASTERISK  &kp MINUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SLASH          &none
-&none           &none  &none  &none  &none         &none  &none  &none      &none  &none  &none                &none          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none              &none
+&none           &none  &none  &none  &none         &none  &none  &none      &none  &none  &none                &kp SEMI       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none              &none
             >;
         };
 
@@ -160,7 +160,7 @@
 &none           &none  &kp N7          &kp N8  &kp N9  &kp N0         &none                                       &none  &kp PERCENT  &kp AMPS   &kp PIPE              &kp GRAVE              &kp TILDE          &none
 &none           &none  &kp N4          &kp N5  &kp N6  &kp DELETE     &none   &none  &none      &none  &none      &none  &kp POUND    &kp CARET  &kp DOLLAR            &kp EQUAL              &kp DOUBLE_QUOTES  &none
 &kp LEFT_SHIFT  &none  &kp N1          &kp N2  &kp N3  &kp BACKSPACE                 &none      &none                    &kp STAR     &kp MINUS  &kp LBKT              &kp RBKT               &kp SLASH          &none
-&none           &none  &kp LEFT_SHIFT  &none   &none                  &kp N0  &none  &none      &none  &kp ENTER  &none               &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none              &none
+&none           &none  &kp LEFT_SHIFT  &none   &none                  &kp N0  &none  &none      &none  &kp ENTER  &none               &kp SEMI   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none              &none
             >;
         };
 
