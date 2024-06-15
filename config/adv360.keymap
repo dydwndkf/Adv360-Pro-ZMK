@@ -185,5 +185,15 @@
 &none  &none  &none              &none              &none                                 &none          &none         &none             &none         &kp LS(ENTER)  &none         &none                          &none                                      &none                            &none  &none
             >;
         };
+
+        layer_right_fn {
+            bindings = <
+&none      &none  &none   &none   &none   &none     &none                                     &none  &none  &none  &none  &none  &none  &none
+&none      &none  &kp N7  &kp N8  &kp N9  &kp N0    &none                                     &none  &none  &none  &none  &none  &none  &none
+&none      &none  &kp N4  &kp N5  &kp N6  &kp DEL   &none   &none  &none      &none  &none    &none  &none  &none  &none  &none  &none  &none
+&kp LSHFT  &none  &kp N1  &kp N2  &kp N3  &kp BSPC                 &none      &none                  &none  &none  &none  &none  &none  &none
+&none      &none  &none   &none   &none             &kp N0  &none  &none      &none  &kp RET  &none         &none  &none  &none  &none  &none
+            >;
+        };
     };
 };
