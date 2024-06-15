@@ -112,7 +112,7 @@
 &kp TAB           &lt 4 Q             &kp W                 &kp E           &kp R               &kp T   &kp Y                                                                                                                          &kp T   &kp Y   &kp U               &kp I            &kp O                &kp P                 &kp BSLH
 &kp ESCAPE        &hm LEFT_CONTROL A  &hm LEFT_SHIFT S      &hm LEFT_ALT D  &hm LEFT_GUI F      &kp G   &mo 2      &mt LG(LEFT_BRACKET) LC(PAGE_UP)  &mt LG(RIGHT_BRACKET) LC(PAGE_DOWN)          &mt HOME PAGE_UP  &mt END PAGE_DOWN  &mo 2   &kp H   &hm LEFT_SHIFT J    &hm RIGHT_ALT K  &hm LEFT_GUI L       &hm LEFT_CONTROL SQT  &kp SEMI
 &kp LSHFT         &kp Z               &kp X                 &kp C           &kp V               &kp B                                                &mt LG(LC(LA(LS(SQT)))) LC(LA(LG(SQT)))      &kp LG(LS(Z))                                &kp N   &kp M               &lt 6 COMMA      &kp DOT              &kp SLASH             &kp RSHFT
-&kp LEFT_CONTROL  &mo 6               &hm LEFT_SHIFT LG(C)  &mt LALT LG(V)  &mt LCMD RIGHT_GUI          &kp SPACE  &mo 7                             &mt LG(LS(N4)) LG(LS(LC(NUMBER_4)))          &kp LG(Z)         &kp ENTER          &mo 1           &mt LCMD BACKSPACE  &mt LALT LG(Z)   &mt RSHFT LG(LS(Z))  &mo 7                 &mo 5
+&kp LEFT_CONTROL  &mo 6               &hm LEFT_SHIFT LG(C)  &mt LALT LG(V)  &mt LCMD RIGHT_GUI          &kp SPACE  &mo 7                             &mt LG(LS(N4)) LG(LS(LC(NUMBER_4)))          &kp LG(Z)         &kp ENTER          &mo 1           &mt LCMD BACKSPACE  &mt LALT LG(Z)   &mt RSHFT LG(LS(Z))  &mo 8                 &mo 5
             >;
         };
 
