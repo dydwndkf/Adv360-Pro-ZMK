@@ -97,10 +97,10 @@
         default_layer {
             bindings = <
 &kp GRAVE         &kp N1              &kp N2                &kp N3          &kp N4              &kp N5  &kp N6                                                                                                                         &kp N6  &kp N7  &kp N8              &kp N9           &kp N0               &kp MINUS             &kp EQUAL
-&kp TAB           &lt 4 Q             &kp W                 &kp E           &kp R               &kp T   &kp Y                                                                                                                          &kp T   &kp Y   &kp U               &kp I            &kp O                &kp P                 &kp BSLH
+&kp TAB           &lt 3 Q             &kp W                 &kp E           &kp R               &kp T   &kp Y                                                                                                                          &kp T   &kp Y   &kp U               &kp I            &kp O                &kp P                 &kp BSLH
 &kp ESCAPE        &hm LEFT_CONTROL A  &hm LEFT_SHIFT S      &hm LEFT_ALT D  &hm LEFT_GUI F      &kp G   &mo 2      &mt LG(LEFT_BRACKET) LC(PAGE_UP)  &mt LG(RIGHT_BRACKET) LC(PAGE_DOWN)          &mt HOME PAGE_UP  &mt END PAGE_DOWN  &mo 2   &kp H   &hm LEFT_SHIFT J    &hm RIGHT_ALT K  &hm LEFT_GUI L       &hm LEFT_CONTROL SQT  &kp SEMI
-&kp LSHFT         &kp Z               &kp X                 &kp C           &kp V               &kp B                                                &mt LG(LC(LA(LS(SQT)))) LC(LA(LG(SQT)))      &kp LG(LS(Z))                                &kp N   &kp M               &lt 6 COMMA      &kp DOT              &kp SLASH             &kp RSHFT
-&kp LEFT_CONTROL  &mo 6               &hm LEFT_SHIFT LG(C)  &mt LALT LG(V)  &mt LCMD RIGHT_GUI          &kp SPACE  &mo 7                             &mt LG(LS(N4)) LG(LS(LC(NUMBER_4)))          &kp LG(Z)         &kp ENTER          &mo 1           &mt LCMD BACKSPACE  &mt LALT LG(Z)   &mt RSHFT LG(LS(Z))  &mo 8                 &mo 5
+&kp LSHFT         &kp Z               &kp X                 &kp C           &kp V               &kp B                                                &mt LG(LC(LA(LS(SQT)))) LC(LA(LG(SQT)))      &kp LG(LS(Z))                                &kp N   &kp M               &lt 5 COMMA      &kp DOT              &kp SLASH             &kp RSHFT
+&kp LEFT_CONTROL  &mo 5               &hm LEFT_SHIFT LG(C)  &mt LALT LG(V)  &mt LCMD RIGHT_GUI          &kp SPACE  &mo 6                             &mt LG(LS(N4)) LG(LS(LC(NUMBER_4)))          &kp LG(Z)         &kp ENTER          &mo 1           &mt LCMD BACKSPACE  &mt LALT LG(Z)   &mt RSHFT LG(LS(Z))  &mo 7                 &mo 4
             >;
         };
 
@@ -121,16 +121,6 @@
 &none  &none         &none         &none         &none         &none         &none        &bt BT_SEL 1  &none      &bt BT_SEL 1  &bt BT_SEL 3  &rgb_ug RGB_MEFS_CMD 5  &none       &none       &none       &none  &none  &none
 &none  &none         &none         &none         &macro_ver    &none                                    &none      &none                                               &bt BT_CLR  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none         &none      &none         &bl BL_TOG    &rgb_ug RGB_TOG                     &bl BL_INC  &bl BL_DEC  &none  &none  &none
-            >;
-        };
-
-        layer_left {
-            bindings = <
-&none             &none  &none           &mt LG(LS(N4)) LG(LS(LC(N4)))  &mt LG(LC(LA(LS(SQT)))) LC(LA(LS(SQT)))  &none  &none                                                               &none                     &none  &none                          &none                              &none                            &none              &none
-&none             &none  &none           &none                          &none                                    &none  &none                                                               &kp C_VOLUME_UP           &none  &none                          &kp LG(LC(LA(I)))                  &kp LG(LC(LA(D)))                &kp LG(LC(LA(P)))  &none
-&none             &none  &kp LEFT_GUI    &kp LEFT_ALT                   &kp LEFT_SHIFT                           &none  &none  &bt BT_SEL 1  &bt BT_SEL 3      &bt BT_SEL 0  &kp LG(LC(Q))  &mt C_MUTE C_VOLUME_DOWN  &none  &mt LG(LS(LEFT)) LA(LS(LEFT))  &mt LG(UP_ARROW) LA(UP_ARROW)      &mt LG(LS(RIGHT)) LA(LS(RIGHT))  &kp LG(LC(LA(V)))  &none
-&none             &none  &none           &none                          &none                                    &none                       &none             &none                                                  &none  &mt LG(LEFT) LA(LEFT)          &mt LG(DOWN_ARROW) LA(DOWN_ARROW)  &mt LG(RIGHT) LA(RIGHT)          &none              &none
-&kp LEFT_CONTROL  &none  &kp LEFT_SHIFT  &kp LEFT_ALT                   &kp LEFT_COMMAND                                &none  &none         &none             &none         &kp LS(ENTER)  &none                            &none                          &none                              &none                            &none              &none
             >;
         };
 
