@@ -154,7 +154,7 @@
             >;
         };
 
-        layer_window {
+        layer_left_thumb {
             bindings = <
 &none  &none  &none              &none              &none              &none              &none                                                                       &none  &none  &none                          &none                                      &none                            &none  &none
 &none  &none  &none              &none              &kp LG(LC(LA(I)))  &kp LG(LC(LA(P)))  &none                                                                       &none  &none  &none                          &none                                      &none                            &none  &none
