@@ -18,7 +18,7 @@
 &gresc { mods = <(MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT)>; };
 
 &mt {
-    flavor = "tap-preferred";
+    flavor = "hold-preferred";
     tapping-term-ms = <150>;
 };
 
