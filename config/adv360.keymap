@@ -17,6 +17,11 @@
 
 &gresc { mods = <(MOD_LGUI|MOD_RGUI|MOD_LCTL|MOD_RCTL|MOD_LALT|MOD_RALT)>; };
 
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <150>;
+};
+
 / {
     behaviors {
         #include "macros.dtsi"
