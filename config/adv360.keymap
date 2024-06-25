@@ -165,11 +165,11 @@
 
         layer_reverse {
             bindings = <
-&kp GRAVE  &kp MINUS  &kp N0         &kp N9     &kp N8    &kp N7  &kp N6                                  &none  &none  &none  &none  &none  &none  &none
-&kp TAB    &kp P      &kp O          &kp I      &kp U     &kp Y   &kp Y                                   &none  &none  &none  &none  &none  &none  &none
-&kp ESC    &kp SQT    &kp L          &kp K      &kp J     &kp H   &none   &none  &none      &none  &none  &none  &none  &none  &none  &none  &none  &none
-&kp LSHFT  &kp FSLH   &kp DOT        &kp COMMA  &kp M     &kp N                  &none      &none                &none  &none  &none  &none  &none  &none
-&kp LCTRL  &none      &kp LS(LG(Z))  &kp LG(Z)  &kp BSPC          &none   &none  &none      &none  &none  &none         &none  &none  &none  &none  &none
+&kp GRAVE  &kp MINUS  &kp N0                    &kp N9              &kp N8                  &kp N7  &kp N6                                  &none  &none  &none  &none  &none  &none  &none
+&kp TAB    &kp P      &kp O                     &kp I               &kp U                   &kp Y   &none                                   &none  &none  &none  &none  &none  &none  &none
+&kp ESC    &kp SQT    &kp L                     &kp K               &kp J                   &kp H   &none   &none  &none      &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp LSHFT  &kp FSLH   &kp DOT                   &kp COMMA           &kp M                   &kp N                  &none      &none                &none  &none  &none  &none  &none  &none
+&kp LCTRL  &none      &hm LEFT_SHIFT LG(LS(Z))  &hm LEFT_ALT LG(Z)  &hm LEFT_GUI BACKSPACE          &none   &none  &none      &none  &none  &none         &none  &none  &none  &none  &none
             >;
         };
     };
