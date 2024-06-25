@@ -166,8 +166,8 @@
         layer_reverse {
             bindings = <
 &hm PLUS EQUAL  &kp MINUS        &kp N0                &kp N9               &kp N8         &kp N7       &kp N6                                  &kp N6  &kp N5       &kp N4                  &kp N3       &kp N2       &kp N1       &kp GRAVE
-&hm PIPE BSLH   &hm LS(P) P      &hm LS(O) O           &hm LS(I) I          &hm LS(U) U    &hm LS(Y) Y  &none                                   &none   &kp T        &kp R                   &kp E        &kp W        &kp Q        &kp TAB
-&kp ESC         &hm LS(SQT) SQT  &hm LS(L) L           &hm LS(K) K          &hm LS(J) J    &hm LS(H) H  &none   &none  &none      &none  &none  &none   &kp G        &kp F                   &kp D        &kp S        &kp A        &kp ESC
+&hm PIPE BSLH   &hm LS(P) P      &hm LS(O) O           &hm LS(I) I          &hm LS(U) U    &hm LS(Y) Y  &none                                   &none   &hm LS(T) T  &hm LS(R) R             &hm LS(E) E  &hm LS(W) W  &hm LS(Q) Q  &kp TAB
+&kp ESC         &hm LS(SQT) SQT  &hm LS(L) L           &hm LS(K) K          &hm LS(J) J    &hm LS(H) H  &none   &none  &none      &none  &none  &none   &hm LS(G) G  &hm LS(F) F             &hm LS(D) D  &hm LS(S) S  &hm LS(A) A  &kp ESC
 &kp LSHFT       &none            &hm GREATER_THAN DOT  &hm LESS_THAN COMMA  &hm LS(M) M    &hm LS(N) N                 &none      &none                 &hm LS(B) B  &hm LS(V) V             &hm LS(C) C  &hm LS(X) X  &hm LS(Z) Z  &kp LSHFT
 &kp LCTRL       &none            &kp LG(LS(Z))         &kp LG(Z)            &kp BACKSPACE               &none   &none  &none      &none  &none  &none                &mt LEFT_GUI RIGHT_GUI  &kp LG(V)    &kp LG(C)    &none        &kp LCTRL
             >;
