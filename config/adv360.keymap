@@ -49,18 +49,6 @@
             timeout-ms = <90>;
         };
 
-        left_bkt {
-            bindings = <&kp LBKT>;
-            key-positions = <>;
-            timeout-ms = <90>;
-        };
-
-        right_bkt {
-            bindings = <&kp RBKT>;
-            key-positions = <>;
-            timeout-ms = <90>;
-        };
-
         minus {
             bindings = <&kp MINUS>;
             key-positions = <55 57>;
@@ -86,14 +74,8 @@
         };
 
         left_paren {
-            bindings = <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp RIGHT_GUI>;
             key-positions = <41 42>;
-            timeout-ms = <90>;
-        };
-
-        right_paren {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <42 43>;
             timeout-ms = <90>;
         };
     };
