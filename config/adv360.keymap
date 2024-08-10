@@ -44,6 +44,8 @@
             label = "TD_SLASH";
             #binding-cells = <0>;
             bindings = <&kp SLASH>, <&kp BACKSLASH>, <&kp PIPE>;
+
+            tapping-term-ms = <175>;
         };
     };
 
