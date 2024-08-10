@@ -39,11 +39,11 @@
             bindings = <&kp>, <&kp>;
         };
 
-        td: td {
+        td_slash: td_slash {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD";
+            label = "TD_SLASH";
             #binding-cells = <0>;
-            bindings = <&kp SLASH>, <&none>;
+            bindings = <&kp SLASH>, <&kp PIPE>;
         };
     };
 
