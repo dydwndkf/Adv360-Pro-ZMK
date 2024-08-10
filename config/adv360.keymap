@@ -43,7 +43,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_SLASH";
             #binding-cells = <0>;
-            bindings = <&kp SLASH>, <&kp PIPE>;
+            bindings = <&kp SLASH>, <&kp BACKSLASH>, <&kp PIPE>;
         };
     };
 
