@@ -38,6 +38,13 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        td: td {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD";
+            #binding-cells = <0>;
+            bindings = <&kp SLASH>, <&none>;
+        };
     };
 
     combos {
