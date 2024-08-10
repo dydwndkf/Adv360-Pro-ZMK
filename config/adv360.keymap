@@ -155,11 +155,11 @@
 
         layer_right_thumb {
             bindings = <
-&none      &none  &none      &none     &none     &none  &none                                          &none  &none             &none                             &none              &none                                &none  &none
-&none      &none  &none      &none     &none     &none  &none                                          &none  &none             &none                             &none              &none                                &none  &none
-&none      &none  &kp LSHFT  &kp LALT  &kp LGUI  &none  &none      &none      &none      &none  &none  &none  &none             &none                             &kp UP             &none                                &none  &none
-&kp LSHFT  &none  &none      &none     &none     &none                        &none      &none                &hm HOME PAGE_UP  &kp LEFT                          &kp DOWN           &kp RIGHT                            &none  &none
-&kp LCTRL  &none  &kp LSHFT  &kp LALT  &kp LGUI         &kp LSHFT  &kp LSHFT  &none      &none  &none  &none                    &hm LG(LEFT_BRACKET) LC(PAGE_UP)  &hm END PAGE_DOWN  &hm LG(RIGHT_BRACKET) LC(PAGE_DOWN)  &none  &none
+&none      &none  &none      &none     &none     &none  &none                                          &none          &none             &none                             &none              &none                                &none  &none
+&none      &none  &none      &none     &none     &none  &none                                          &none          &none             &none                             &none              &none                                &none  &none
+&none      &none  &kp LSHFT  &kp LALT  &kp LGUI  &none  &none      &none      &none      &none  &none  &kp LG(GRAVE)  &kp LG(LS(A))     &none                             &kp UP             &none                                &none  &none
+&kp LSHFT  &none  &none      &none     &none     &none                        &none      &none                        &hm HOME PAGE_UP  &kp LEFT                          &kp DOWN           &kp RIGHT                            &none  &none
+&kp LCTRL  &none  &kp LSHFT  &kp LALT  &kp LGUI         &kp LSHFT  &kp LSHFT  &none      &none  &none  &none                            &hm LG(LEFT_BRACKET) LC(PAGE_UP)  &hm END PAGE_DOWN  &hm LG(RIGHT_BRACKET) LC(PAGE_DOWN)  &none  &none
             >;
         };
 
