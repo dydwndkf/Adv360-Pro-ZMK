@@ -67,13 +67,13 @@
         shiftt {
             bindings = <&kp LS(T)>;
             key-positions = <18 19>;
-            timeout-ms = <90>;
+            timeout-ms = <80>;
         };
 
         shiftr {
             bindings = <&kp LS(R)>;
             key-positions = <17 18>;
-            timeout-ms = <90>;
+            timeout-ms = <75>;
         };
 
         semi {
@@ -82,10 +82,15 @@
             timeout-ms = <90>;
         };
 
-        left_paren {
+        jjk {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <41 42>;
             timeout-ms = <90>;
+        };
+
+        shifte {
+            bindings = <&kp LS(E)>;
+            key-positions = <17 32>;
         };
     };
 
