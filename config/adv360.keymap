@@ -91,6 +91,7 @@
         shifte {
             bindings = <&kp LS(E)>;
             key-positions = <17 32>;
+            timeout-ms = <75>;
         };
     };
 
