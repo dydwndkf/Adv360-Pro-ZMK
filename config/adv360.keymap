@@ -64,15 +64,15 @@
             timeout-ms = <90>;
         };
 
-        equal {
+        shiftt {
             bindings = <&kp LS(T)>;
             key-positions = <18 19>;
             timeout-ms = <90>;
         };
 
-        aster {
-            bindings = <&kp ASTRK>;
-            key-positions = <54 55>;
+        shiftr {
+            bindings = <&kp LS(R)>;
+            key-positions = <17 18>;
             timeout-ms = <90>;
         };
 
