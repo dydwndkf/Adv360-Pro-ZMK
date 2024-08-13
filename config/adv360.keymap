@@ -65,8 +65,8 @@
         };
 
         equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <>;
+            bindings = <&kp LS(T)>;
+            key-positions = <18 19>;
             timeout-ms = <90>;
         };
 
