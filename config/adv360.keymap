@@ -73,7 +73,7 @@
         shiftr {
             bindings = <&kp LS(R)>;
             key-positions = <18 33>;
-            timeout-ms = <70>;
+            timeout-ms = <75>;
         };
 
         semi {
