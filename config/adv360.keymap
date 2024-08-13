@@ -67,7 +67,7 @@
         shiftt {
             bindings = <&kp LS(T)>;
             key-positions = <18 19>;
-            timeout-ms = <75>;
+            timeout-ms = <70>;
         };
 
         shiftr {
