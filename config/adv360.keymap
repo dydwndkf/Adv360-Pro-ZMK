@@ -100,6 +100,12 @@
             key-positions = <4 17>;
             timeout-ms = <68>;
         };
+
+        b {
+            bindings = <&kp B>;
+            key-positions = <55 56>;
+            timeout-ms = <65>;
+        };
     };
 
     keymap {
