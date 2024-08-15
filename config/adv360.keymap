@@ -74,6 +74,7 @@
             bindings = <&kp LS(R)>;
             key-positions = <18 33>;
             timeout-ms = <75>;
+            require-prior-idle-ms = <50>;
         };
 
         semi {
@@ -88,9 +89,9 @@
             timeout-ms = <90>;
         };
 
-        shifte {
+        shiftg {
             bindings = <&kp LS(E)>;
-            key-positions = <17 32>;
+            key-positions = <33 50>;
             timeout-ms = <68>;
         };
     };
