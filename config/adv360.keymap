@@ -157,11 +157,11 @@
 
         layer_left_thumb {
             bindings = <
-&none      &none          &none                              &none              &none                                &none             &none                                                                       &none  &none  &none             &none                                      &none              &none  &none
-&none      &none          &none                              &none              &none                                &none             &none                                                                       &none  &none  &kp LC(LG(LEFT))  &none                                      &kp LG(LC(RIGHT))  &none  &none
-&none      &kp LG(W)      &none                              &none              &none                                &kp LG(LS(A))     &kp LG(GRAVE)  &bt BT_SEL 1  &bt BT_SEL 3      &bt BT_SEL 0  &bt BT_CLR     &none  &none  &kp LC(LS(LEFT))  &mt LC(LA(LS(UP_ARROW))) LC(LA(UP_ARROW))  &kp LC(LS(RIGHT))  &none  &none
-&none      &kp LG(T)      &none                              &none              &none                                &hm HOME PAGE_UP                               &none             &none                               &none  &kp LC(LA(LEFT))  &kp LC(LA(DOWN))                           &kp LC(LA(RIGHT))  &none  &kp LEFT_SHIFT
-&kp LG(T)  &kp LG(LS(T))  &hm LG(RIGHT_BRACKET) LC(PAGE_UP)  &hm END PAGE_DOWN  &hm LG(RIGHT_BRACKET) LC(PAGE_DOWN)                    &none          &none         &none             &none         &kp LS(ENTER)  &none         &none             &none                                      &none              &none  &none
+&none                &none          &none                              &none              &none                                &none             &none                                                                       &none  &none  &none             &none                                      &none              &none  &none
+&none                &none          &none                              &none              &none                                &none             &none                                                                       &none  &none  &kp LC(LG(LEFT))  &none                                      &kp LG(LC(RIGHT))  &none  &none
+&none                &kp LG(W)      &none                              &none              &none                                &kp LG(LS(A))     &kp LG(GRAVE)  &bt BT_SEL 1  &bt BT_SEL 3      &bt BT_SEL 0  &bt BT_CLR     &none  &none  &kp LC(LS(LEFT))  &mt LC(LA(LS(UP_ARROW))) LC(LA(UP_ARROW))  &kp LC(LS(RIGHT))  &none  &none
+&none                &kp LG(LS(T))  &none                              &none              &none                                &hm HOME PAGE_UP                               &none             &none                               &none  &kp LC(LA(LEFT))  &kp LC(LA(DOWN))                           &kp LC(LA(RIGHT))  &none  &kp LEFT_SHIFT
+&mt LG(LS(R)) LG(R)  &kp LG(T)      &hm LG(RIGHT_BRACKET) LC(PAGE_UP)  &hm END PAGE_DOWN  &hm LG(RIGHT_BRACKET) LC(PAGE_DOWN)                    &none          &none         &none             &none         &kp LS(ENTER)  &none         &none             &none                                      &none              &none  &none
             >;
         };
 
