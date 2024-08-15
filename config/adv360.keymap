@@ -90,7 +90,7 @@
         };
 
         shiftg {
-            bindings = <&kp LS(E)>;
+            bindings = <&kp LS(G)>;
             key-positions = <33 50>;
             timeout-ms = <68>;
         };
