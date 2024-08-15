@@ -94,6 +94,12 @@
             key-positions = <33 50>;
             timeout-ms = <68>;
         };
+
+        shifte {
+            bindings = <&kp LS(E)>;
+            key-positions = <4 17>;
+            timeout-ms = <68>;
+        };
     };
 
     keymap {
