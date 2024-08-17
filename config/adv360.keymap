@@ -87,6 +87,7 @@
             bindings = <&kp RIGHT_GUI>;
             key-positions = <41 42>;
             timeout-ms = <90>;
+            require-prior-idle-ms = <55>;
         };
 
         shiftg {
