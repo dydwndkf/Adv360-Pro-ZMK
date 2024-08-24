@@ -50,7 +50,7 @@
 
         st: st {
             compatible = "zmk,behavior-hold-tap";
-            label = "ST";
+            label = "Short Tab";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
