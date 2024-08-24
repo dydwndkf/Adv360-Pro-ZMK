@@ -47,6 +47,16 @@
 
             tapping-term-ms = <175>;
         };
+
+        st: st {
+            compatible = "zmk,behavior-hold-tap";
+            label = "ST";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <85>;
+            flavor = "tap-preferred";
+        };
     };
 
     combos {
